@@ -110,10 +110,7 @@ nav li {
   width: 106px;
   height: 19px;
   background-color: transparent;
-  border-top-left-radius: 12px 12px;
-  border-top-right-radius: 12px 12px;
-  border-bottom-right-radius: 12px 12px;
-  border-bottom-left-radius: 12px 12px;
+  border-radius: 12px;
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.398438) 0 -1px 0, rgba(255, 255, 255, 0.199219) 0 1px 0;
   margin: 0 auto;
@@ -160,17 +157,14 @@ nav li {
   width: 100%;
   height: 19px;
   background-color: transparent;
-  border-top-left-radius: 12px 12px;
-  border-top-right-radius: 12px 12px;
-  border-bottom-right-radius: 12px 12px;
-  border-bottom-left-radius: 12px 12px;
   box-sizing: border-box;
   border: 0 none white;
+  border-radius: 12px;
   padding: 2px 18px 1px 22px;
   color: white;
 }
 
-/* header */
+/* Header area */
 header {
   width: 1440px;
   height: 657.5px;
@@ -210,7 +204,7 @@ h1,
   margin-right: auto;
 }
 
-/* main */
+/*Main body */
 main>ul {
   margin-top: 3px;
 }
@@ -219,7 +213,7 @@ main>ul>li img {
   max-width: 357px;
 }
 
-/* footer */
+/* Footer area */
 #footer-container {
   color: rgb(110, 110, 110);
   font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
@@ -240,12 +234,7 @@ main>ul>li img {
   float: right;
 }
 
-#links li {
-  padding-left: 0.6em;
-  margin-right: 0.6em;
-  border-left: 1px solid rgb(204, 204, 204);
-}
-
+#links li,
 #terms-privacy li {
   padding-left: 0.6em;
   margin-right: 0.6em;
